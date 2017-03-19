@@ -96,7 +96,7 @@ get_timeline <- function(user, n = 200,
     }
     params <- list(
         user_type = user,
-        count = 200,
+        count = n,
         max_id = max_id,
         tweet_mode = full_text,
         ...)
